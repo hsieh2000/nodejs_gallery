@@ -13,14 +13,26 @@ function change_page(img) {
     $("#carousel-pic").remove();
     // 計算圖片比例
     let pic_ratio = $(img).outerHeight()/$(img).outerWidth();
-    // 如果 寬比高長
-    if(pic_ratio < 1) {
-        carousel_width = window.innerWidth*0.8;
-        carousel_height = $(img).outerHeight() * carousel_width / $(img).outerWidth();
+    let window_size = window.innerHeight/window.innerWidth;
+    if(window_size<1) {
+        // 如果 寬比高長
+        if(pic_ratio < 0.8) {
+            carousel_width = window.innerWidth*0.8;
+            carousel_height = $(img).outerHeight() * carousel_width / $(img).outerWidth();
+        } else {
+            carousel_height = window.innerHeight*0.9;
+            carousel_width = $(img).outerWidth() * carousel_height / $(img).outerHeight();
+        }
     } else {
-        carousel_height = window.innerHeight*0.9;
-        carousel_width = $(img).outerWidth() * carousel_height / $(img).outerHeight();
+        if(pic_ratio > 1.7) {
+            carousel_height = window.innerHeight*0.9;
+            carousel_width = $(img).outerWidth() * carousel_height / $(img).outerHeight();
+        } else {
+            carousel_width = window.innerWidth*0.8;
+            carousel_height = $(img).outerHeight() * carousel_width / $(img).outerWidth();
+        }
     }
+
 
     // 設定放大圖 <img>
     let large_image = `<img id="carousel-pic" src=${decodeURI($(img).attr("src"))}></img>`;
