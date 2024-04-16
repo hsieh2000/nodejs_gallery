@@ -1,0 +1,27 @@
+{
+  "name": "node-js",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "chardet": "^2.0.0",
+    "connect-mongo": "^5.1.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "^1.18.0",
+    "formidable": "^3.5.1",
+    "heic-convert": "^2.1.0",
+    "http-errors": "~1.6.3",
+    "iconv-lite": "^0.6.3",
+    "image-size": "^1.1.1",
+    "md5": "^2.3.0",
+    "mongoose": "^8.2.1",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.5-lts.1",
+    "util": "^0.12.5"
+  }
+}

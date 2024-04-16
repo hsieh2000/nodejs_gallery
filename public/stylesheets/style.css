@@ -1,0 +1,95 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  word-wrap: break-word;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.folder-a {
+  text-decoration: none;
+}
+
+.dir_figure {
+  transition: all 0.1s ease-out 100ms;
+  color: black;
+}
+.dir_figure:hover {
+  background-color: #637078;
+  color: white;
+}
+
+.navbar-brand {
+  padding-left:5px;
+}
+
+.nav-btn {
+  margin: 5px;
+}
+
+#carousel-pic {
+  position: fixed;
+  z-index: 1002;
+
+}
+
+#prev, #next {
+  position: fixed;
+  z-index: 1003;
+}
+
+
+#fade {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color:black;
+  z-index: 1001;
+  opacity:.80;
+  display: none;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.component {
+  position: relative;
+}
+
+.X {
+  position: absolute;
+  font-size: 25px;
+  /* color: brown; */
+  font:bolder;
+  right: 17px;
+  z-index: 999;
+  cursor: pointer;
+}
+
+#del {
+  display: none;
+}
+
+.li-User {
+  padding-top: 10px;
+  padding-left: 5px;
+  margin-right: 10px;
+}
+
+.User {
+  font-size: large;
+}
+
+.previousPage {
+  padding-left: 5px;
+  font-size: large;
+  padding-top: 2px;
+}
