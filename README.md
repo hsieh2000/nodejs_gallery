@@ -56,8 +56,10 @@ For my example, the environment variable will be ```export PATH=${PATH}:/Users/j
    * Open another terminal and run ```npm start``` to activate project.  
 
    ### For Windows:  
-   * Open a new CMD, cd to the bin folder of MongoDB package and run ```mongod``` to activate MongoDB.  
-   * Open a new Node.js command prompt and run ```npm start``` to activate project.  
+   * Open a new cmd, cd to the bin folder of MongoDB package and run ```mongod``` to activate MongoDB.  
+   * Open a new Node.js command prompt and run ```npm start``` to activate project.
+
+   Now, click http://127.0.0.1/1222:3000, you can interact with the gallery.
 
 
 
