@@ -31,7 +31,8 @@ Using the Node.js Express framework to build an online gallery, combined with Mo
    > Either MSI or ZIP is available, the difference between these two type is that MSI will directly install package under **C:\Program Files\MongoDB\\**. On the contrary, you will need to manually unzip and move the package to your destinated path if you choose ZIP.  
 
    * Create folder **C:\data\db\\**, this is the default path of MongoDB for data storage.  
-   * After installation, you can cd to the bin folder of MongoDB package, for exmaple of choosing MSI, the path will be **C:\Program Files\MongoDB\server\YOUR_VERSION\bin** and run ```mongod``` to activate MongoDB
+   * After installation, cd to the bin folder of MongoDB package, for exmaple of choosing MSI, the path will be **C:\Program Files\MongoDB\server\YOUR_VERSION\bin** and then you can run ```mongod``` to activate MongoDB.
+     
 
    
    
