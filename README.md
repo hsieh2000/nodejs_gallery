@@ -18,7 +18,7 @@ Using the Node.js Express framework to build an online gallery, combined with Mo
    ### For MacOS: 
    * After download and unzip the tgz package, you need to move the package to home directory by running ```mv mongodb-macos-aarch64-YOUR_MONGODB_VERSION /Users/YourUserName/```.
    * Next, cd to home directory and run ```ls -al``` to find **.zshrc**, a configuration file used for setting up and customizing the user environment.  
-   * Run ```open .zshrc``` to open **.zshrc** and set environment variable by adding ```export PATH=${PATH}:/Users/jeremyhsieh/mongodb-macos-aarch64-YOUR_MONGODB_VERSION/bin```
+   * Run ```open .zshrc``` to open **.zshrc** and set environment variable by adding ```export PATH=${PATH}:/Users/YourUserName/mongodb-macos-aarch64-YOUR_MONGODB_VERSION/bin```
    * After save the modified **.zshrc**, run ```source .zshrc``` to update environment variable.
    * Finally, create folder **~/data/db/**, this is the default path of MongoDB for data storage.
 
