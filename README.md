@@ -28,8 +28,7 @@ Using the Node.js Express framework to build an online gallery, combined with Mo
    
    ### For Windows:  
    > Here are two types of packages you could download for MongoDB: MSI and ZIP.  
-   > Either MSI or ZIP is available, the difference between these two type is that MSI will directly install package under **C:\Program Files\MongoDB\\**.  
-   > On the contrary, you will need to manually unzip and move the package to your destinated path if you choose ZIP. 
+   > Either MSI or ZIP is available, the difference between these two type is that MSI will directly install package under **C:\Program Files\MongoDB\\**. On the contrary, you will need to manually unzip and move the package to your destinated path if you choose ZIP. 
 
    
    
