@@ -63,7 +63,7 @@ For my example, the environment variable will be ```export PATH=${PATH}:/Users/j
 
 ## 5. Register and Log-in
    When you click http://127.0.0.1:3000/1222/, you will reach the log-in page. However, because you don't have an account yet, you can't log-in.  
-   What you have to do is go to http://127.0.0.1:3000/1222/register to sign-up a new account, after that you will be redirected to the log-in page and then you can log-in to the gallery.  
+   What you have to do is go to http://127.0.0.1:3000/1222/register/ to sign-up a new account, after that you will be redirected to the log-in page and then you can log-in to the gallery.  
    
 
 
