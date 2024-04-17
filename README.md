@@ -21,29 +21,43 @@ Using the Node.js Express framework to build an online gallery, combined with Mo
    * Run ```open .zshrc``` to open **.zshrc** and set environment variable by adding ```export PATH=${PATH}:/Users/YourUserName/PACKAGE_NAME/bin```.
 For my example, the environment variable will be ```export PATH=${PATH}:/Users/jeremyhsieh/mongodb-macos-aarch64-7.0.8/bin```
    * After save the modified **.zshrc**, run ```source .zshrc``` to update environment variable.
-   * Finally, create folder **~/data/db/**, this is the default path of MongoDB for data storage.
+   * Finally, create folder **YOUR_HOME_DIRECTORY/data/db/**, this is the default path of MongoDB for data storage, you can check your home directory by opening a new terminal and running ```pwd```.
 ![image](readme_pic/dir.png)  
 
 
      To check if you successfully install MongoDB, run ```mongod --version``` in terminal to see the version of MongoDB.  
-     Now, you should able to activate MongoDB by running ```mongod``` in terminal.
      If you wish to use mongosh in terminal, click this link to download MongoDB Shell https://www.mongodb.com/try/download/shell and do the same steps as how you install MongoDB.  
    
    ### For Windows:  
    > Here are two types of packages you could download for MongoDB: MSI and ZIP.  
-   > Either MSI or ZIP is available, the difference between these two type is that MSI will directly install package under **C:\Program Files\MongoDB\\**. On the contrary, you will need to manually unzip and move the package to your destinated path if you choose ZIP.
+   > Either MSI or ZIP is available, the difference between these two type is that MSI will directly install package under **C:\Program Files\MongoDB\\**. On the contrary, you will need to manually unzip and move the package to your destinated path if you choose ZIP.  
 
-![image](readme_pic/messageImage_1713349910395.jpg)
+![image](readme_pic/messageImage_1713349910395.jpg)  
 
 
-   * Create folder **C:\data\db\\**, this is the default path of MongoDB for data storage.
+   * Create folder **C:\data\db\\**, this is the default path of MongoDB for data storage.  
 
 ![image](readme_pic/messageImage_1713350046639.jpg)  
 
-   * After installation, cd to the bin folder of MongoDB package, for exmaple of choosing MSI, the path will be **C:\Program Files\MongoDB\server\YOUR_VERSION\bin** and then you can run ```mongod``` to activate MongoDB.
+   * After installation, cd to the bin folder of MongoDB package, for exmaple of choosing MSI, the path will be **C:\Program Files\MongoDB\server\YOUR_VERSION\bin** and then you can run ```mongod``` to activate MongoDB.  
      
+## 3. Download Repo  
+   > For MacOS: open a new terminal to do follow steps.    
+   > For Windows: open a new Node.js command prompt to do follow steps.  
 
-   
-   
-4. Download the repo and unzip it.
-5. Open your terminal and cd to the repo file
+   * To run a nodeJS project, you need to download, unzip, and cd into the Repo.  
+   * run ```npm install -g nodemon``` to install nodemon globally, this package allows you to modifiy code without restart the preject.  
+
+## 4. Activate Project
+   Now you've completed all requirements, let's activate the online gallery!  
+
+   ###For MacOS:  
+   * Open a new terminal and run ```sudo mongod --dbpath=YOUR_HOME_DIRECTORY``` to activate MongoDB, the default DB path this **YOUR_HOME_DIRECTORY/data/db/**.  
+   * Open another terminal and run ```npm start``` to activate project.  
+
+   ###For Windows:  
+   * Open a new CMD, cd to the bin folder of MongoDB package and run ```mongod``` to activate MongoDB.  
+   * Open a new Node.js command prompt and run ```npm start``` to activate project.  
+
+
+
