@@ -22,7 +22,7 @@ Using the Node.js Express framework to build an online gallery, combined with Mo
 For my example, the environment variable will be ```export PATH=${PATH}:/Users/jeremyhsieh/mongodb-macos-aarch64-7.0.8/bin```
    * After save the modified **.zshrc**, run ```source .zshrc``` to update environment variable.
    * Finally, create folder **~/data/db/**, this is the default path of MongoDB for data storage.
-![image](readme_pic/messageImage_1713349910395.jpg)  
+![image](readme_pic/dir.png)  
 
 
      To check if you successfully install MongoDB, run ```mongod --version``` in terminal to see the version of MongoDB.  
