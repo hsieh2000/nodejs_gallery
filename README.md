@@ -51,11 +51,11 @@ For my example, the environment variable will be ```export PATH=${PATH}:/Users/j
 ## 4. Activate Project
    Now you've completed all requirements, let's activate the online gallery!  
 
-   ###For MacOS:  
+   ### For MacOS:  
    * Open a new terminal and run ```sudo mongod --dbpath=YOUR_HOME_DIRECTORY``` to activate MongoDB, the default DB path this **YOUR_HOME_DIRECTORY/data/db/**.  
    * Open another terminal and run ```npm start``` to activate project.  
 
-   ###For Windows:  
+   ### For Windows:  
    * Open a new CMD, cd to the bin folder of MongoDB package and run ```mongod``` to activate MongoDB.  
    * Open a new Node.js command prompt and run ```npm start``` to activate project.  
 
