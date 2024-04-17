@@ -42,9 +42,11 @@ $(document).ready(()=> {
     if(location.pathname.replaceAll("/", "") === "register") {
         $(".sent").html("Sing Up");
         $("#auth").attr("action", "/register");
+        $("#title").html("register");
     } else if(location.pathname.replaceAll("/", "") === "login") {
         $(".sent").html("Log In");
         $("#auth").attr("action", "/login");
+        $("#title").html("login");
     }
 });
 
