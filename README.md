@@ -20,7 +20,13 @@ Using the Node.js Express framework to build an online gallery, combined with Mo
    * Next, cd to home directory and run ```ls -al``` to find **.zshrc**, a configuration file used for setting up and customizing the user environment.  
    * Run ```open .zshrc``` to open **.zshrc** and set environment variable by adding ```export PATH=${PATH}:/Users/jeremyhsieh/mongodb-macos-aarch64-YOUR_DB_VERSION/bin```
    * After save the modified **.zshrc**, run ```source .zshrc``` to update environment variable.
-   * Finally, create folder **~/data/db/**, this is the default path of MongoDB for data storage. 
+   * Finally, create folder **~/data/db/**, this is the default path of MongoDB for data storage.
+
+     To check if you successfully install MongoDB, run ```mongod --version``` to see the version of MongoDB.
+     Now, you should able able to start MongoDB by running ```mongod``` in terminal.
+     
+
+If you wish to use mongosh in terminal, click this link to download MongoDB Shell https://www.mongodb.com/try/download/shell and do the same steps as how you install MongoDB.
    
    
    
