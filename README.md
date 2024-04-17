@@ -27,9 +27,9 @@ Using the Node.js Express framework to build an online gallery, combined with Mo
      If you wish to use mongosh in terminal, click this link to download MongoDB Shell https://www.mongodb.com/try/download/shell and do the same steps as how you install MongoDB.  
    
    ### For Windows:  
-   Here are two types of packages you could download for MongoDB: MSI and ZIP.
-   Either MSI or ZIP is available, the difference between these two type is that MSI will directly install package under **C:\Program Files\MongoDB\\**.  
-   On the contrary, you will need to manually unzip and move the package to your destinated path if you choose ZIP. 
+   > Here are two types of packages you could download for MongoDB: MSI and ZIP.
+   > Either MSI or ZIP is available, the difference between these two type is that MSI will directly install package under **C:\Program Files\MongoDB\\**.  
+   > On the contrary, you will need to manually unzip and move the package to your destinated path if you choose ZIP. 
 
    
    
