@@ -22,7 +22,7 @@ Using the Node.js Express framework to build an online gallery, combined with Mo
    * After save the modified **.zshrc**, run ```source .zshrc``` to update environment variable.
    * Finally, create folder **~/data/db/**, this is the default path of MongoDB for data storage.
 
-     To check if you successfully install MongoDB, run ```mongod --version``` to see the version of MongoDB.
+     To check if you successfully install MongoDB, run ```mongod --version``` in terminal to see the version of MongoDB.  
      Now, you should able able to start MongoDB by running ```mongod``` in terminal.
      
 
