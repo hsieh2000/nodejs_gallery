@@ -112,7 +112,7 @@ For my example, the environment variable will be ```export PATH=${PATH}:/Users/j
 
 ## 7. Other way to add media
 
-   When you try to upload massive files or a big files through gallery upload function, the system might shutdown.  
+   When you try to upload massive files or a big files through gallery upload function, the system might crash.  
    Here provides an alternative way to add media.  
    This gallery is developed using the Express framework, we use express-generator to build framework automatically.  
 
