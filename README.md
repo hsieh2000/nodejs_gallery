@@ -111,7 +111,7 @@ For my example, the environment variable will be ```export PATH=${PATH}:/Users/j
    ### Logout  
    ![image](readme_pic/logout.gif)  
 
-## 7. Other way to add media
+## 7. The other way to modify media
 
    When you try to upload massive files or a big files through gallery upload function, the system might crash.  
    Here provides an alternative way to add media.  
