@@ -81,7 +81,7 @@ For my example, the environment variable will be ```export PATH=${PATH}:/Users/j
    * mov  
    * mp4  
 
-   **Please note that All media upload to the gellery will be rename with it timestamp**  
+   **Please note that All media upload to the gellery will be rename with its timestamp**  
 
 
    ### Upload  
