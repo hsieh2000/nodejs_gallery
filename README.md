@@ -67,8 +67,11 @@ For my example, the environment variable will be ```export PATH=${PATH}:/Users/j
    What you have to do is go to http://127.0.0.1:3000/register/ to sign-up a new account, after that you will be redirected to the log-in page and then you can log-in to the gallery.  
    
 ## 6. Gallery Introduction
-   The Gallery is 
-   ![image](readme_pic/gallery.png)  
+   ![image](readme_pic/upload.gif)  
+   ![image](readme_pic/delete.gif)  
+   ![image](readme_pic/switchPictures.gif)  
+   ![image](readme_pic/video.gif)  
+   ![image](readme_pic/logout.gif)  
 
 
 
