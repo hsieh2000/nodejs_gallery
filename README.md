@@ -67,7 +67,7 @@ For my example, the environment variable will be ```export PATH=${PATH}:/Users/j
    What you have to do is go to http://127.0.0.1:3000/register/ to sign-up a new account, after that you will be redirected to the log-in page and then you can log-in to the gallery.  
    
 ## 6. Gallery Introduction  
-   ### File type
+   ### Supporting File type
    The gallery accept four types of pictures and two types of video:  
    > picture    
    * jpg  
@@ -109,6 +109,13 @@ For my example, the environment variable will be ```export PATH=${PATH}:/Users/j
 
    ### Logout  
    ![image](readme_pic/logout.gif)  
+
+## 7. Other way to add media
+
+   When you try to upload massive files or a big files through gallery upload function, the system might shutdown.  
+   Here provides an alternative way to add media.  
+   This gallery is developed using the Express framework, we use express-generator to build framework automatically.
+   
 
 
 
