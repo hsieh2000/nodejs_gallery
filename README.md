@@ -74,13 +74,14 @@ For my example, the environment variable will be ```export PATH=${PATH}:/Users/j
    * jpeg  
    * png  
    * heic  
-   Please note that if you upload a **heic** file, the system will convert it to a **jpg** file and delete the origin file.  
-   Since the browsers do not support this file type due to licensing agreements.  
+   **Please note that if you upload a **heic** file, the system will convert it to a **jpeg** file and delete the origin file.  
+   Since the browsers do not support this file type due to licensing agreements.**  
 
    > video  
    * mov  
    * mp4  
-   
+
+   **Please note that All media upload to the gellery will be rename with it timestamp**  
 
 
    ### Upload  
