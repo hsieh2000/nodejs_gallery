@@ -73,7 +73,8 @@ For my example, the environment variable will be ```export PATH=${PATH}:/Users/j
    * jpg  
    * jpeg  
    * png  
-   * heic  
+   * heic
+   Please note that if you upload a **heic** file, the system will convert it to a **jpg** file and delete the origin file. Since the browsers do not support this file type due to licensing agreements.
 
    > video  
    * mov  
