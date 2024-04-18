@@ -46,8 +46,8 @@ For my example, the environment variable will be ```export PATH=${PATH}:/Users/j
    > For Windows: open a new Node.js command prompt to do follow steps.  
 
    * To run a nodeJS project, you need to download, unzip, and cd into the Repo.
-   * run ```npm install``` to install packages according to **package.json** for the project.
-   * run ```npm install -g nodemon``` to install nodemon globally, this package allows you to modifiy code without restart the preject.  
+   * Run ```npm install``` to install packages according to **package.json** for the project.
+   * Run ```npm install -g nodemon``` to install nodemon globally, this package allows you to modifiy code without restart the preject.  
 
 ## 4. Activate Project
    Now you've completed all requirements, let's activate the online gallery!  
