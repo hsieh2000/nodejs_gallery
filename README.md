@@ -116,7 +116,7 @@ For my example, the environment variable will be ```export PATH=${PATH}:/Users/j
    Here provides an alternative way to add media.  
    This gallery is developed using the Express framework, we use express-generator to build framework automatically.  
 
-   All media save in the **media** folder, you can add, delete and rename media, even create a new folder in the **media** folder.  
+   All media save in the **media** folder, you can add, delete and rename files, even create a new folder in the **media** folder.  
    ![image](readme_pic/express_framework.png)  
 
    
