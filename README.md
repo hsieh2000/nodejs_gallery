@@ -67,7 +67,7 @@ For my example, the environment variable will be ```export PATH=${PATH}:/Users/j
    What you have to do is go to http://127.0.0.1:3000/register/ to sign-up a new account, after that you will be redirected to the log-in page and then you can log-in to the gallery.  
    
 ## 6. Gallery Introduction  
-   ### Supporting File type
+   ### Supported File type
    The gallery accept four types of pictures and two types of video:  
    > picture    
    * jpg  
