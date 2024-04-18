@@ -70,18 +70,21 @@ For my example, the environment variable will be ```export PATH=${PATH}:/Users/j
    ### Upload  
    * Click _choose file_  
    * Select media  
-   * Click _upload_  
+   * Click _upload_
+
    ![image](readme_pic/upload.gif)  
 
    ### Delete  
    * Click _X_ on the right-top of the media   
-   * Comfirm the alarm  
+   * Comfirm the alarm
+     
    ![image](readme_pic/delete.gif)  
 
    ### Switch Pictures  
    * Click picture to zoom-in picture  
    * Click the left/right part of the zoomed-in picture to switch to the previous/next picture  
-   * Click the shadow to zoom-out   
+   * Click the shadow to zoom-out  
+  
    ![image](readme_pic/switchPictures.gif)
 
    ### Play Video  
