@@ -68,7 +68,7 @@ For my example, the environment variable will be ```export PATH=${PATH}:/Users/j
    
 ## 6. Gallery Introduction
    The Gallery is 
-   ![image](readme_pic/gallery.jpg)  
+   ![image](readme_pic/gallery.png)  
 
 
 
