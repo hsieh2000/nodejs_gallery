@@ -6,11 +6,11 @@ Using the Node.js Express framework to build an online gallery, combined with Mo
    
    ### For MacOS:  
    After installation, you should be able to run node and npm in terminal.  
-   To check if the installation success, run ```node -v``` and ```npm -v``` to see version of node and npm.  
+   To check if the installation success, run ```node -v``` and ```npm -v``` to see the version of node and npm.  
    
    ### For Windows:  
    After installation, open Node.js command prompt to enter script  
-   To check if the installation success, run ```node -v``` and ```npm -v``` to see version of node and npm.
+   To check if the installation success, run ```node -v``` and ```npm -v``` to see the version of node and npm.
    
 ## 2. Install MongoDB Community Server
    click this link to download MongoDB Community Server, https://www.mongodb.com/try/download/community
