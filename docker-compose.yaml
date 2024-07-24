@@ -1,0 +1,39 @@
+version: '3.1'
+
+services:
+  my-app:
+    image: my-app:1.0
+    ports:
+      - 3000:3000
+    depends_on:
+      mongo:
+        condition: service_started
+    volumes:
+      - media-storage:/app/public/media
+
+  mongo:
+    image: mongo
+    restart: always
+    ports:
+      - 27017:27017
+    volumes:
+      - mongo-db:/data/db
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - 8081:8081
+    depends_on:
+      mongo:
+        condition: service_started
+    environment:
+      ME_CONFIG_MONGODB_URL: mongodb://mongo:27017/
+      ME_CONFIG_BASICAUTH: false
+
+volumes:
+  media-storage:
+    driver: local
+  mongo-db:
+    driver: local
+

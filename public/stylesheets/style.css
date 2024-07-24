@@ -74,6 +74,16 @@ input[type="file"] {
   cursor: pointer;
 }
 
+.X_folder {
+  position: relative;
+  bottom: 52px;
+  float: right;
+  font-size: 25px;
+  right: 17px;
+  z-index: 999;
+  cursor: pointer;
+}
+
 #del {
   display: none;
 }
@@ -92,4 +102,8 @@ input[type="file"] {
   padding-left: 5px;
   font-size: large;
   padding-top: 2px;
+}
+
+.current_path {
+  font-size: large;
 }

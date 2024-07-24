@@ -92,4 +92,6 @@ db(() => {
       : 'port ' + addr.port;
     debug('Listening on ' + bind);
   }
+
+  console.log("http://localhost:3000/1222/")
 });
