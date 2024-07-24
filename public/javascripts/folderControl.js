@@ -1,5 +1,5 @@
 $("#cfolder").on("click", (event)=> {
-    let prom = prompt("input something");
+    let prom = prompt("New Folder Name");
     console.log(prom);
     console.log("cfolder/"+prom);
 
