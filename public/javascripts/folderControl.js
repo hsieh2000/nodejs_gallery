@@ -9,21 +9,23 @@ $("#cfolder").on("click", (event)=> {
     name: prom
     };
 
-    fetch(`${window.location.pathname}`, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(params)
-        })
-    .then(response => response.json())
-    .then(data => console.log('Success:', data))
-    .catch(error => console.error('Error:', error));
+    if(!!prom) {
+        fetch(`${window.location.pathname}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(params)
+            })
+        .then(response => response.json())
+        .then(data => console.log('Success:', data))
+        .catch(error => console.error('Error:', error));
 
-    // 因為 fetch 是用 async 方式傳送請求，所以 後端的任何 res. 方法都無法使頁面重新渲染，需要透過前端重新載入頁面
-    // 且不知為何不能直接接在 fetch 後，需要以判斷式觸發
-    if(true) {
-        window.location.reload();
+        // 因為 fetch 是用 async 方式傳送請求，所以 後端的任何 res. 方法都無法使頁面重新渲染，需要透過前端重新載入頁面
+        // 且不知為何不能直接接在 fetch 後，需要以判斷式觸發
+        if(true) {
+            window.location.reload();
+        }
     }
 });
 
