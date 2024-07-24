@@ -80,8 +80,6 @@ router.post("/1222/*", checkLoginMiddleware,(req, res) => {
       console.log("Invalid Payload");
     }
   }
-  res.render(req.url);
-
 });
 
 router.post("/del/*", checkLoginMiddleware, (req, res) => {
