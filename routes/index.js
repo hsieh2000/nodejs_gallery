@@ -47,7 +47,7 @@ router.post("/1222/*", checkLoginMiddleware,(req, res) => {
           // 1MB or uploading different file type)
           return res.send(err);
       } 
-      res.redirect(req.url);
+      res.redirect(decodeURI(req.url));
     });
   } else {
     const {command, name} = req.body
@@ -56,8 +56,8 @@ router.post("/1222/*", checkLoginMiddleware,(req, res) => {
 
     if(command == "create") {
       try {
-        if (!fs.existsSync(__dirname+"/../public"+folder_path+name)) {
-          fs.mkdirSync(__dirname+"/../public"+folder_path+name);
+        if (!fs.existsSync(decodeURI(__dirname+"/../public"+folder_path+name))) {
+          fs.mkdirSync(decodeURI(__dirname+"/../public"+folder_path+name));
         } else {
           console.log("Folder already exist")
         }
@@ -67,8 +67,8 @@ router.post("/1222/*", checkLoginMiddleware,(req, res) => {
       }
     } else if (command == "delete") {
       try {
-        if (fs.existsSync(__dirname+"/../public"+name)) {
-          rimraf.sync(__dirname+"/../public"+name);
+        if (fs.existsSync(decodeURI(__dirname+"/../public"+name))) {
+          rimraf.sync(decodeURI(__dirname+"/../public"+name));
         } else {
           console.log("Folder doesn't exist")
         }
